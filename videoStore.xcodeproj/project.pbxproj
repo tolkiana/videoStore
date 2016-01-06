@@ -14,6 +14,7 @@
 		383C82E71C3CC608000C1767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383C82E61C3CC608000C1767 /* Assets.xcassets */; };
 		383C82EA1C3CC608000C1767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383C82E81C3CC608000C1767 /* LaunchScreen.storyboard */; };
 		383C82F41C3CC63F000C1767 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C82F31C3CC63F000C1767 /* Movie.m */; };
+		383C82F71C3CCA88000C1767 /* Rental.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C82F61C3CCA88000C1767 /* Rental.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		383C82EB1C3CC608000C1767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		383C82F21C3CC63F000C1767 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		383C82F31C3CC63F000C1767 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		383C82F51C3CCA88000C1767 /* Rental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rental.h; sourceTree = "<group>"; };
+		383C82F61C3CCA88000C1767 /* Rental.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rental.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				383C82F21C3CC63F000C1767 /* Movie.h */,
 				383C82F31C3CC63F000C1767 /* Movie.m */,
+				383C82F51C3CCA88000C1767 /* Rental.h */,
+				383C82F61C3CCA88000C1767 /* Rental.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			files = (
 				383C82E21C3CC608000C1767 /* ViewController.m in Sources */,
 				383C82DF1C3CC608000C1767 /* AppDelegate.m in Sources */,
+				383C82F71C3CCA88000C1767 /* Rental.m in Sources */,
 				383C82F41C3CC63F000C1767 /* Movie.m in Sources */,
 				383C82DC1C3CC607000C1767 /* main.m in Sources */,
 			);
