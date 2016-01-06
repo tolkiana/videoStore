@@ -15,6 +15,7 @@
 		383C82EA1C3CC608000C1767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383C82E81C3CC608000C1767 /* LaunchScreen.storyboard */; };
 		383C82F41C3CC63F000C1767 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C82F31C3CC63F000C1767 /* Movie.m */; };
 		383C82F71C3CCA88000C1767 /* Rental.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C82F61C3CCA88000C1767 /* Rental.m */; };
+		383C82FA1C3CCCC7000C1767 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C82F91C3CCCC7000C1767 /* Customer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		383C82F31C3CC63F000C1767 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		383C82F51C3CCA88000C1767 /* Rental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rental.h; sourceTree = "<group>"; };
 		383C82F61C3CCA88000C1767 /* Rental.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rental.m; sourceTree = "<group>"; };
+		383C82F81C3CCCC7000C1767 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		383C82F91C3CCCC7000C1767 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				383C82F31C3CC63F000C1767 /* Movie.m */,
 				383C82F51C3CCA88000C1767 /* Rental.h */,
 				383C82F61C3CCA88000C1767 /* Rental.m */,
+				383C82F81C3CCCC7000C1767 /* Customer.h */,
+				383C82F91C3CCCC7000C1767 /* Customer.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				383C82E21C3CC608000C1767 /* ViewController.m in Sources */,
+				383C82FA1C3CCCC7000C1767 /* Customer.m in Sources */,
 				383C82DF1C3CC608000C1767 /* AppDelegate.m in Sources */,
 				383C82F71C3CCA88000C1767 /* Rental.m in Sources */,
 				383C82F41C3CC63F000C1767 /* Movie.m in Sources */,
