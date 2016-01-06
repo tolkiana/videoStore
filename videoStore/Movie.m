@@ -27,10 +27,6 @@
     return self;
 }
 
-- (void)setMovieTitle:(NSString *)movieTitle{
-    _title = movieTitle;
-}
-
 - (NSString *)getMovieTitle{
     return _title;
 }

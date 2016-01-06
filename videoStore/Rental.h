@@ -14,4 +14,7 @@
 @property (nonatomic, strong, readonly) Movie *movie;
 @property (nonatomic, readonly) NSInteger daysRented;
 
+- (Movie *)getMovie;
+- (NSInteger)getDaysRented;
+
 @end

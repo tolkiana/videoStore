@@ -17,4 +17,8 @@
 @property (nonatomic, strong, readonly) NSString *title;
 @property (nonatomic, readonly) NSInteger priceCode;
 
+- (NSString *)getMovieTitle;
+- (void)setMoviePrice:(NSInteger)price;
+- (NSInteger)getMoviePrice;
+
 @end
