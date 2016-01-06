@@ -14,6 +14,7 @@
 @property (nonatomic, strong, readonly) NSString *name;
 @property (nonatomic, strong, readonly) NSMutableArray *rentals;
 
+- (id)initWithName:(NSString *)name;
 - (void)addRental:(Rental *)rental;
 - (NSString *)getName;
 - (NSString *)statement;
