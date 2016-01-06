@@ -13,6 +13,7 @@
 		383C82E51C3CC608000C1767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383C82E31C3CC608000C1767 /* Main.storyboard */; };
 		383C82E71C3CC608000C1767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383C82E61C3CC608000C1767 /* Assets.xcassets */; };
 		383C82EA1C3CC608000C1767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383C82E81C3CC608000C1767 /* LaunchScreen.storyboard */; };
+		383C82F41C3CC63F000C1767 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C82F31C3CC63F000C1767 /* Movie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		383C82E61C3CC608000C1767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		383C82E91C3CC608000C1767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		383C82EB1C3CC608000C1767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383C82F21C3CC63F000C1767 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		383C82F31C3CC63F000C1767 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		383C82D91C3CC607000C1767 /* videoStore */ = {
 			isa = PBXGroup;
 			children = (
+				383C82F11C3CC622000C1767 /* Models */,
 				383C82DD1C3CC608000C1767 /* AppDelegate.h */,
 				383C82DE1C3CC608000C1767 /* AppDelegate.m */,
 				383C82E01C3CC608000C1767 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				383C82DB1C3CC607000C1767 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		383C82F11C3CC622000C1767 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				383C82F21C3CC63F000C1767 /* Movie.h */,
+				383C82F31C3CC63F000C1767 /* Movie.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				383C82E21C3CC608000C1767 /* ViewController.m in Sources */,
 				383C82DF1C3CC608000C1767 /* AppDelegate.m in Sources */,
+				383C82F41C3CC63F000C1767 /* Movie.m in Sources */,
 				383C82DC1C3CC607000C1767 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
